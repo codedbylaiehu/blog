@@ -32,6 +32,10 @@ h1 a, h2 a {
 
 }
 
+div.homepageImg {
+  max-width: 400px;
+}
+
 h2 {
   text-align: center;
   font-family: 'Special Elite', sans-serif;
