@@ -14,6 +14,12 @@ h1 {
   position: fixed;
   top:0;
   right: 2%;
+  font-size: 3.5em;
+  color: #2B2D42;
+}
+
+p {
+  color: #2B2D42;
 }
 
 .navContainer {
@@ -23,7 +29,7 @@ h1 {
   top:40%;
   left: 0%;
   text-decoration: none;
-  background-color: blue;
+  background-color: #D80032;
   color: #F3F3F3;
   padding-right: 1%;
 }
@@ -38,7 +44,7 @@ nav header ol li a {
 }
 
 nav header ol li a h2:hover {
-  color: blue;
+  color: #D80032;
   background-color: #F3F3F3;
   z-index: 5;
 }
@@ -68,12 +74,13 @@ nav header ol li a h2:hover {
   top: 0;
   text-align: left;
   overflow: auto;
+  color: #2B2D42;
   background: #F3F3F3;
 }
 
 .main-section-content {
   height: fit-content;
-  border-top: 2px solid rgb(0, 0, 0);
+  border-top: 2px solid #2B2D42;
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-gap: 7px;
@@ -93,6 +100,7 @@ nav header ol li a h2:hover {
   top: 0;
   text-align: left;
   font-weight: 600;
+  color: #2B2D42;
   background: #F3F3F3;
   overflow: auto;
 }
