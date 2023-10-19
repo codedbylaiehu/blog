@@ -113,10 +113,14 @@ input, textarea {
   width: 100%;
   padding: 10px;
   outline: 0;
-  border: 1px solid #F3F3F3;
+  border: 1px solid #360c1664;
   color: #F3F3F3;
-  background: transparent;
+  background-color: #360c1664;
   font-size: 19px;
+}
+
+input:focus~label {
+  top: -35px;
 }
 
 label {
@@ -125,16 +129,16 @@ label {
   left: 0;
   top: 0;
   padding: 10px;
-  color: #F3F3F3;
+  color: #360c1664;
   cursor: text;
 }
 
 button {
   padding: 10px 0;
-  color: #F3F3F3;
+  color: #360c1664;
   outline: none;
   background: transparent;
-  border: 1px solid #F3F3F3;
+  border: 1px solid #360c1664;
   width: 100%;
   cursor: pointer;
 }
@@ -150,6 +154,7 @@ button {
   position: sticky;
   top: 0;
   text-align: left;
+  font-size: 1em;
   font-weight: 600;
   color: #2B2D42;
   background: #F3F3F3;
