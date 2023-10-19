@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+h1 image {
+  position: fixed;
+  left: 2%
+  image-resolution: 2.5em;
+}
+
+body nav header ol li img {
+  position: fixed;
+  left: 2%
+  image-resolution: 2.5em;
+}
+
 body {
   background: #F3F3F3;
   margin: 0;
