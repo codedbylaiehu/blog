@@ -21,6 +21,7 @@ h1 {
 
 p {
   color: #2B2D42;
+  font-size: 1.2em;
 }
 
 .navContainer {
@@ -113,14 +114,14 @@ input, textarea {
   width: 100%;
   padding: 10px;
   outline: 0;
-  border: 1px solid #360c1664;
+  border: 1px solid #360c162e;
   color: #F3F3F3;
-  background-color: #360c1664;
+  background-color: #360c162e;
   font-size: 19px;
 }
 
-input:focus~label {
-  top: -35px;
+input:focus~label, label.messageLabel {
+  top: -31px;
 }
 
 label {
@@ -135,10 +136,10 @@ label {
 
 button {
   padding: 10px 0;
-  color: #360c1664;
+  color: #F3F3F3;
   outline: none;
-  background: transparent;
-  border: 1px solid #360c1664;
+  background: #360c162e;
+  border: 1px solid #360c1685;
   width: 100%;
   cursor: pointer;
 }
@@ -154,7 +155,7 @@ button {
   position: sticky;
   top: 0;
   text-align: left;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 600;
   color: #2B2D42;
   background: #F3F3F3;
