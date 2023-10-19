@@ -6,14 +6,14 @@
 
 h1 image {
   position: fixed;
-  left: 2%
-  image-resolution: 128px 128px;
+  left: 2%;
+  width: 200px;
 }
 
 body nav header ol li img {
   position: fixed;
-  left: 2%
-  image-resolution: 256px 256px;
+  left: 2%;
+  width: 150px;
 }
 
 body {
