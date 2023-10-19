@@ -131,7 +131,7 @@ input, textarea {
   font-size: 19px;
 }
 
-input:focus~label, label.messageLabel {
+input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label {
   top: -31px;
 }
 
@@ -221,7 +221,7 @@ kbd {
 
 @media screen and (min-device-width: 200px) and (max-device-width: 768px) {
   h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     right: 2%;
     z-index: 2;
   }
